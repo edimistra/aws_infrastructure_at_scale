@@ -1,0 +1,5 @@
+https://calculator.aws/#/estimate?id=f6bac53e284d6829669603eb611b71168905b645
+
+Now that I have an increased budget I did an adjustment on the EC2 instances on both the web and application server.  I used the m4.4xlarge instance since it has more RAM (64GB) and more vCPUs (16). It also has a high network performance. These changes should cover the application performance.
+
+On RDS I made both Main and Replica databases Multi-AZ to add redundancy. I also duplicated the size of the db instance by using db.m5.8xlarge. These changes should improve performance and redundancy.

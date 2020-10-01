@@ -1,0 +1,16 @@
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),,Amazon Route 53,0,8.7,104.40,USD,"Hosted Zones (1), Basic Checks Within AWS (5)"
+My Estimate,US East (N. Virginia),,Elastic Load Balancing,0,37.14,445.68,USD,"Number of Classic Load Balancers (2), Processed bytes per CLB (40 GB per month)"
+My Estimate,US East (N. Virginia),,Amazon EC2,0,2652.0531,31824.64,USD,"Operating system (Linux), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (100 GB), Snapshot Frequency (Hourly), Amount changed per snapshot (3 GB), Data Transfer, Workload (Daily, (Workload days: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Baseline: 2, Peak: 18, Duration of peak: 8 Hr 0 Min)), Advance EC2 instance (m4.2xlarge), Pricing strategy (undefined)"
+My Estimate,US East (N. Virginia),,Amazon Elastic IP,0,1,12.00,USD,"Number of EC2 instances (2), Number of EIPs per instance (1), Number of EIP remaps (10)"
+My Estimate,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,388.26,4659.12,USD,Number of NAT Gateways (2)
+My Estimate,US East (N. Virginia),,Amazon RDS for MySQL,0,2350.56,28206.72,USD,"Quantity (2), Pricing strategy (On-Demand Instances), Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (1.5 TB)"
+My Estimate,US East (N. Virginia),,S3 Standard,0,916.34,10996.08,USD,S3 Standard storage (38 TB per month)
+My Estimate,US East (N. Virginia),,Data Transfer,0,0,0.00,USD," Inbound (from: Internet) 1 TB per month 
+ Outbound (to: Internet) 0 GB per month 
+"
+My Estimate,US East (N. Virginia),,Amazon EC2,0,2652.0531,31824.64,USD,"Operating system (Linux), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (100 GB), Snapshot Frequency (Hourly), Amount changed per snapshot (3 GB), Data Transfer, Workload (Daily, (Workload days: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Baseline: 2, Peak: 18, Duration of peak: 8 Hr 0 Min)), Advance EC2 instance (m4.2xlarge), Pricing strategy (undefined)"
+
+
+
+"AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."

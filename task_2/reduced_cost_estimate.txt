@@ -1,0 +1,3 @@
+https://calculator.aws/#/estimate?id=ef297857ac360c48b2c325b3469f1defdff4af14
+
+Based on this article https://www.concurrencylabs.com/blog/5-steps-for-finding-optimal-ec2-infrastructure/ I could handle 2000 concurrent users by using a smaller EC2 instance but increasing the size of the autoscaling group. I chose m4.xlarge since it has a good amount of RAM (16GB) and High Network Performance bringing the On-Demand price to half. I also adjusted the number of EBS backups and reduced the size of it since EBS space is  only required to store the Web Server and Application Server assets. All user data is stored either at S3 for media files or at RDS for text only posts. These adjustments brought down the monthly price to 6,391.36 USD.
